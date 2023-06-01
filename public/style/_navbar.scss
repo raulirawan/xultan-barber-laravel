@@ -1,0 +1,27 @@
+.navbar-xultan {
+  background: #122b35;
+  padding-top: 0px;
+
+  .navbar-brand {
+    img {
+      max-height: 100px;
+    }
+  }
+  .navbar-nav {
+    margin-right: 30px;
+  }
+  .nav-item {
+    .nav-link {
+      color: #fff;
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .btn-login {
+      @include button-variant(#ffbb00, transparent);
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.page-auth {
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+  .btn-auth-login {
+    @include button-variant(#ffbb00, transparent);
+    color: #fff;
+  }
+
+  .btn-auth-register {
+    @include button-variant(#f3f3f3, transparent);
+    color: #bbb;
+  }
+
+  .form-control {
+    background: #f3f3f3;
+    border-radius: 8px;
+  }
+}
